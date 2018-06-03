@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>html a css</title>
+<link rel="stylesheet" href="normalize.css">
+<link rel="stylesheet" href="style.css">
+</head>
+	<body>
+	<section class="section-1">
+	<h1 class="container">Formulár</h1>
+	</section>
+	<section class="section-2">
+		<form action="#" method="GET" class="container">
+			<div>
+				<label>
+					Meno <br>
+					<input type="text" name="name" placeholder="Meno">
+				</label>
+				<label>
+					E-mail <br>
+					<input type="mail" name="mail" placeholder="@">
+				</label>
+				<label>
+					Dátum narodenia <br>
+					<input type="date" name="date" placeholder="dátum">
+				</label>
+				<label>
+					Heslo <br>
+					<input type="password" name="password">
+				</label>
+				<label >
+					Potvrdenie hesla <br>
+					<input type="password" name="confirm">
+				</label>
+			</div>
+			<div class="second">
+				<label>
+					Správa <br>
+					<textarea name="message" id="" cols="56" rows="10"></textarea>
+				</label>
+				<label>
+					Muž
+					<input type="radio" name="sex" value="Muž">
+				</label>
+				<label>
+					<input type="radio" name="sex" value="žena">
+					Žena
+				</label>
+				<select name="serial">
+					<option value="1">Kúpiť</option>
+					<option value="2">Požičať</option>
+					<option value="3">Predať</option>
+				</select>
+            </div>
+            <div class="third">
+            	<input type="checkbox" name="remember" id="pamataj">Zapamätať údaje
+			</div>
+			<div class="third">
+            	<input type="checkbox" name="remember" id="pamataj">Posielat novinky
+			</div>
+		</form>
+		<div class="btn">
+			<button>
+				Odoslať
+			</button>
+		</div>
+	</section>
+	</body>
+</html>
